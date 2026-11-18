@@ -2,6 +2,12 @@
 name = "nimbux"
 version = "0.1.0"
 edition = "2024"
+description = "A unified CLI wrapper for AWS, GCP and Azure"
+license = "MIT"
+repository = "https://github.com/rockefeeller/nimbux"
+readme = "README.md"
+keywords = ["cli", "aws", "gcp", "azure", "cloud"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 clap = { version = "4.6.8", features = ["derive"] }
